@@ -1,0 +1,21 @@
+{
+  "store.home": {
+    "blocks": [
+      "info-card#home"
+    ]
+  },
+  "info-card#home": {
+    "props": {
+      "blockClass": "main-banner",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/main-banner___33845cd3d49b059a9a74da5220686a42.png",
+      "headline": "The best shoes for running.",
+      "subhead": "",
+      "callToActionText": "Discover",
+      "callToActionUrl": "#",
+      "imageActionUrl": "#",
+      "textAlignment": "left"
+    }
+  }
+}
