@@ -7,7 +7,8 @@
   "header-layout.desktop": {
     "children": [
       "header-row#promo-bar",
-      "header-row#logo-bar"
+      "header-row#logo-bar",
+      "header-row#menu"
     ]
   },
   "header-row#promo-bar": {
@@ -41,5 +42,14 @@
     "props": {
       "url": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/HARDSPORT___9be5ada7fe2d7eeb7126a85d71da1cb1.png"
     }
+  },
+  "header-row#menu": {
+    "props": {
+      "blockClass": "menu",
+       "inverted": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#header"
+    ]
   }
 }

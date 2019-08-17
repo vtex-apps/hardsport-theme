@@ -1,0 +1,75 @@
+{
+	"vtex.menu@2.x:menu#header": {
+    "props": {
+      "blockClass": "header"
+    },
+		"children": [
+			"menu-item#hats",
+			"menu-item#decoration",
+			"menu-item#shoes",
+			"menu-item#bags",
+			"menu-item#clothing",
+			"menu-item#accessories"
+		]
+	},
+	"menu-item#hats": {
+		"props": {
+			"type": "custom",
+			"itemProps": {
+				"href": "#",
+				"tagTitle": "Hats",
+				"text": "Hats"
+			}
+		}
+	},
+  "menu-item#decoration": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "tagTitle": "Decoration",
+        "text": "Decoration"
+      }
+    }
+  },
+  "menu-item#shoes": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "tagTitle": "Shoes",
+        "text": "Shoes"
+      }
+    }
+  },
+  "menu-item#bags": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "tagTitle": "Bags",
+        "text": "Hats"
+      }
+    }
+  },
+  "menu-item#clothing": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#accessories": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  }
+}
