@@ -41,10 +41,14 @@
   },
   "notification.bar": {
     "props": {
+      "blockClass": "promobar",
       "content": "FOR 25% OFF SALE USE CODE: HELLOHARDSPORT"
     }
   },
   "header-row#logo-bar": {
+     "props": {
+       "inverted": true
+     },
     "children": [
       "logo",
       "header-spacer",

@@ -1,8 +1,22 @@
+.container {
+  max-width: inherit;
+  padding: 0;
+  margin: 0
+}
+
 .infoCardContainer--main-banner {
   min-height: 500px;
 }
 
 .infoCardContainer--main-banner .infoCardHeadline {
-	color: #FFF;
-	font-size: 80px;
+  color: #FFF;
+  font-size: 80px;
+}
+
+.notificationBarContainer {
+  background-color: #FFF;
+}
+
+.notificationBarContainer .notificationContent {
+  color: #222435;
 }
