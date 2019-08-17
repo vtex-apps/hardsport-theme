@@ -1,0 +1,56 @@
+{
+  "store.home": {
+    "blocks": [
+      "info-card#home"
+    ]
+  },
+
+  "info-card#home": {
+    "props": {
+      "blockClass": "main-banner",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/main-banner___33845cd3d49b059a9a74da5220686a42.png",
+      "headline": "The best shoes for running.",
+      "subhead": "",
+      "callToActionText": "Discover",
+      "callToActionUrl": "#",
+			"imageActionUrl": "#",
+      "textAlignment": "left"
+    }
+  },
+
+  //
+  // HEADER
+  //
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#promo-bar",
+      "header-row#logo-bar"
+    ]
+  },
+  "header-row#promo-bar": {
+    "children": [
+      "notification.bar"
+    ]
+  },
+  "notification.bar": {
+    "props": {
+      "content": "FOR 25% OFF SALE USE CODE: HELLOHARDSPORT"
+    }
+  },
+  "header-row#logo-bar": {
+    "children": [
+      "logo",
+      "header-spacer",
+      "search-bar",
+      "login",
+      "minicart"
+    ]
+  }
+}

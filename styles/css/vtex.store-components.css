@@ -1,0 +1,8 @@
+.infoCardContainer--main-banner {
+  min-height: 500px;
+}
+
+.infoCardContainer--main-banner .infoCardHeadline {
+	color: #FFF;
+	font-size: 80px;
+}
