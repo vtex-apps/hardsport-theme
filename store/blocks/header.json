@@ -13,6 +13,7 @@
   },
   "header-row#promo-bar": {
     "props": {
+      "fullWidth": true,
       "blockClass": "promobar"
     },
     "children": [
@@ -46,7 +47,7 @@
   "header-row#menu": {
     "props": {
       "blockClass": "menu",
-       "inverted": true
+      "inverted": true
     },
     "children": [
       "vtex.menu@2.x:menu#header"

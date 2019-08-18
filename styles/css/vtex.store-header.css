@@ -1,3 +1,7 @@
 .headerRow--logo-bar .headerRowContainer {
   min-height: 120px;
 }
+
+.headerRow--menu .headerRowContainer {
+  justify-content: center;
+}

@@ -1,8 +1,3 @@
-.menuContainer--header {
-  justify-content: center;
-  width: 100vw;
-}
-
 .menuContainer--header .styledLink {
   color: #FFFFFF;
   text-transform: uppercase;

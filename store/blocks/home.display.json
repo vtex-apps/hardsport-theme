@@ -1,0 +1,72 @@
+{
+  "flex-layout.row#display": {
+    "props": {
+      "blockClass": "display",
+      "colGap": 8,
+      "rowGap": 8,
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.col#display1",
+      "flex-layout.col#display2",
+      "flex-layout.col#display3"
+    ]
+  },
+  "flex-layout.col#display1": {
+    "children": [
+      "info-card#display1"
+    ]
+  },
+  "flex-layout.col#display2": {
+    "children": [
+      "info-card#display2"
+    ]
+  },
+  "flex-layout.col#display3": {
+    "children": [
+      "info-card#display3"
+    ]
+  },
+  "info-card#display1": {
+    "props": {
+      "blockClass": "display",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/image___29be3c40ca1bfbf426d2c4465bee38e2.png",
+      "headline": "New arrivals.",
+      "subhead": "",
+      "callToActionText": "Shop Now",
+      "callToActionUrl": "#",
+      "imageActionUrl": "#",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#display2": {
+    "props": {
+      "blockClass": "display",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/image%208___f1c437da8564857fa528099697684eef.png",
+      "headline": "Summer is here.",
+      "subhead": "",
+      "callToActionText": "Shop Now",
+      "callToActionUrl": "#",
+      "imageActionUrl": "#",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#display3": {
+    "props": {
+      "blockClass": "display",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/image___310e2d6a7689eb5322f4a33469f12a7b.png",
+      "headline": "Favorite shoes.",
+      "subhead": "",
+      "callToActionText": "Shop Now",
+      "callToActionUrl": "#",
+      "imageActionUrl": "#",
+      "textAlignment": "center"
+    }
+  }
+}
