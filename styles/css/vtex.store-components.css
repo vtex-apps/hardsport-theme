@@ -1,24 +1,44 @@
 .infoCardContainer--main-banner {
-  height: 500px;
+  height: 280px;
+  background-position: bottom;
 }
 
 .infoCardContainer--main-banner .infoCardHeadline {
   color: #FFF;
-  font-size: 80px;
+  font-size: 50px;
+  line-height: 50px;
 }
 
 .infoCardContainer--display {
   height: 100%;
-  min-height: 340px;
+  min-height: 270px;
 }
 
 .infoCardContainer--display .infoCardHeadline {
   color: #FFF;
   font-size: 50px;
+  line-height: 50px;
 }
 
 .infoCardContainer--display .infoCardTextContainer {
-  width: 60%;
+  width: 70%;
+}
+
+.notificationBarContainer {
+  background-color: #FFF;
+}
+
+.notificationBarInner {
+  min-height: 2.3em;
+  font-size: .875rem;
+}
+
+.logoContainer.sizeDesktop {
+  min-width: 200px;
+}
+
+.searchBarContainer {
+  width: auto;
 }
 
 .notificationBarContainer {

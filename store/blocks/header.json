@@ -13,8 +13,7 @@
   },
   "header-row#promo-bar": {
     "props": {
-      "fullWidth": true,
-      "blockClass": "promobar"
+      "fullWidth": true
     },
     "children": [
       "notification.bar"
@@ -22,7 +21,6 @@
   },
   "notification.bar": {
     "props": {
-      "blockClass": "promobar",
       "content": "FOR 25% OFF SALE USE CODE: HELLOHARDSPORT"
     }
   },
