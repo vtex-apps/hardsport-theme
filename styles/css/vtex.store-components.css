@@ -7,24 +7,71 @@
 
 .infoCardContainer--main-banner .infoCardHeadline {
   color: #FFF;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 70px;
+  line-height: 70px;
 }
 
 .infoCardContainer--display {
   height: 100%;
-  min-height: 270px;
+  min-height: 295px;
 }
 
 .infoCardContainer--display .infoCardHeadline {
   color: #FFF;
+  z-index: 1;
   font-size: 50px;
   line-height: 50px;
+}
+
+.infoCardContainer--display .infoCardCallActionContainer {
+  z-index: 1;
 }
 
 .infoCardContainer--display .infoCardTextContainer {
   width: 70%;
 }
+
+.infoCardContainer--categories {
+  min-height: 180px;
+}
+
+.infoCardContainer--categories .infoCardHeadline {
+  color: #FFF;
+  z-index: 1;
+  font-weight: 400;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+}
+
+.infoCardContainer--categories .infoCardCallActionContainer {
+  z-index: 1;
+}
+
+.infoCardContainer--categories .infoCardTextContainer {
+  width: 70%;
+}
+
+.infoCardContainer--display::after, .infoCardContainer--categories::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  z-index: 0;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  opacity: .3;
+  background: #142032;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.infoCardContainer--display:hover::after, .infoCardContainer--categories:hover::after {
+  opacity: .3;
+}
+
 
 .notificationBarContainer {
   background-color: #FFF;

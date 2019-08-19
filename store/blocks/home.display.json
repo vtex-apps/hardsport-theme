@@ -13,16 +13,25 @@
     ]
   },
   "flex-layout.col#display1": {
+    "props": {
+      "blockClass": "infocard"
+    },
     "children": [
       "info-card#display1"
     ]
   },
   "flex-layout.col#display2": {
+    "props": {
+      "blockClass": "infocard"
+    },
     "children": [
       "info-card#display2"
     ]
   },
   "flex-layout.col#display3": {
+    "props": {
+      "blockClass": "infocard"
+    },
     "children": [
       "info-card#display3"
     ]

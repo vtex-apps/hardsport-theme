@@ -1,0 +1,78 @@
+{
+  "flex-layout.row#categories": {
+    "props": {
+      "blockClass": "categories",
+      "colGap": 8,
+      "rowGap": 8,
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.col#categories1",
+      "flex-layout.col#categories2",
+      "flex-layout.col#categories3"
+    ]
+  },
+  "flex-layout.col#categories1": {
+    "props": {
+      "blockClass": "infocard"
+    },
+    "children": [
+      "info-card#categories1"
+    ]
+  },
+  "flex-layout.col#categories2": {
+    "props": {
+      "blockClass": "infocard"
+    },
+    "children": [
+      "info-card#categories2"
+    ]
+  },
+  "flex-layout.col#categories3": {
+    "props": {
+      "blockClass": "infocard"
+    },
+    "children": [
+      "info-card#categories3"
+    ]
+  },
+  "info-card#categories1": {
+    "props": {
+      "blockClass": "categories",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/image___16ed8e735cc6acdc9ddf6e41152a3549.png",
+      "headline": "Bikes",
+      "subhead": "",
+      "callToActionMode": "none",
+      "imageActionUrl": "#",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#categories2": {
+    "props": {
+      "blockClass": "categories",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/image-1___a037fe99a2f6710f04603222fdb5419f.png",
+      "headline": "Camping",
+      "subhead": "",
+      "callToActionMode": "none",
+      "imageActionUrl": "#",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#categories3": {
+    "props": {
+      "blockClass": "categories",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/image-2___bf131a0c9372fbd527c4ed068c2f85b8.png",
+      "headline": "Footwear",
+      "subhead": "",
+      "callToActionMode": "none",
+      "imageActionUrl": "#",
+      "textAlignment": "center"
+    }
+  }
+}
