@@ -1,6 +1,8 @@
 .infoCardContainer--main-banner {
-  height: 280px;
+  height: 370px;
   background-position: bottom;
+  margin: 0 auto;
+  max-width: 1920px;
 }
 
 .infoCardContainer--main-banner .infoCardHeadline {
