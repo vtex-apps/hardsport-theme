@@ -1,0 +1,94 @@
+{
+  "flex-layout.row#brand-bar": {
+    "props": {
+      "blockClass": "brand-bar",
+      "colGap": 5
+    },
+    "children": [
+      "flex-layout.col#brand1",
+      "flex-layout.col#brand2",
+      "flex-layout.col#brand3",
+      "flex-layout.col#brand4",
+      "flex-layout.col#brand5",
+      "flex-layout.col#brand6"
+    ]
+  },
+  "flex-layout.col#brand1": {
+    "props": {
+      "blockClass": "brand"
+    },
+    "children": [
+      "image#brand1"
+    ]
+  },
+  "flex-layout.col#brand2": {
+    "props": {
+      "blockClass": "brand"
+    },
+    "children": [
+      "image#brand2"
+    ]
+  },
+  "flex-layout.col#brand3": {
+    "props": {
+      "blockClass": "brand"
+    },
+    "children": [
+      "image#brand3"
+    ]
+  },
+  "flex-layout.col#brand4": {
+    "props": {
+      "blockClass": "brand"
+    },
+    "children": [
+      "image#brand4"
+    ]
+  },
+  "flex-layout.col#brand5": {
+    "props": {
+      "blockClass": "brand"
+    },
+    "children": [
+      "image#brand5"
+    ]
+  },
+  "flex-layout.col#brand6": {
+    "props": {
+      "blockClass": "brand"
+    },
+    "children": [
+      "image#brand6"
+    ]
+  },
+  "image#brand1": {
+    "props": {
+      "src": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/image 2___cde6c3e914a273a35bdaa518da76325d.png"
+    }
+  },
+  "image#brand2": {
+    "props": {
+      "src": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/image 3___d2ef72a10c57b35a7b0b19167119690c.png"
+    }
+  },
+  "image#brand3": {
+    "props": {
+      "src": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/image 4___b432e98e93c7079bdf0d26426adfe5c3.png"
+    }
+  },
+  "image#brand4": {
+    "props": {
+      "src": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/image 5___f95bf1393f2ccd93974b08bc2b469c4b.png"
+    }
+  },
+  "image#brand5": {
+    "props": {
+      "src": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/image 6___a9f805bcf5d7125c3043e0c795e12b0d.png"
+    }
+  },
+  "image#brand6": {
+    "props": {
+      "src": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/image 7___63c8a44e46b6788587ef61e632567b08.png"
+    }
+  }
+}

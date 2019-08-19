@@ -12,9 +12,6 @@
     ]
   },
   "header-row#promo-bar": {
-    "props": {
-      "fullWidth": true
-    },
     "children": [
       "notification.bar"
     ]

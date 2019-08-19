@@ -1,3 +1,18 @@
 .flexRow--display {
   margin: 3em 0;
 }
+
+.flexCol--brand {
+  text-align: center;
+  justify-content: center;
+  background-color: #FFF;
+  padding: .75em 0;
+}
+
+.flexCol--brand > div {
+  height: initial!important;
+}
+
+.flexRow--brand-bar {
+  background: #FFF;
+}

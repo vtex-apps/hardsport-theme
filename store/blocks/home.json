@@ -2,12 +2,13 @@
   "store.home": {
     "blocks": [
       "flex-layout.row#main-banner",
+      "flex-layout.row#brand-bar",
       "flex-layout.row#display"
     ]
   },
   "flex-layout.row#main-banner": {
     "props": {
-      "fullWidth": false
+      "fullWidth": true
     },
     "children": [
       "info-card#home"
