@@ -1,34 +1,43 @@
 {
-	"vtex.menu@2.x:menu#header": {
+  "header-row#menu": {
+    "props": {
+      "blockClass": "menu",
+      "inverted": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#header"
+    ]
+  },
+  "vtex.menu@2.x:menu#header": {
     "props": {
       "blockClass": "header"
     },
-		"children": [
-			"menu-item#hats",
-			"menu-item#decoration",
-			"menu-item#shoes",
-			"menu-item#bags",
-			"menu-item#clothing",
-			"menu-item#accessories"
-		]
-	},
-	"menu-item#hats": {
-		"props": {
-			"type": "custom",
-			"itemProps": {
-				"href": "#",
-				"tagTitle": "Hats",
-				"text": "Hats"
-			}
-		}
-	},
+    "children": [
+      "menu-item#hats",
+      "menu-item#decoration",
+      "menu-item#shoes",
+      "menu-item#bags",
+      "menu-item#clothing",
+      "menu-item#accessories"
+    ]
+  },
+  "menu-item#hats": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+	"href": "#",
+	"tagTitle": "Hats",
+	"text": "Hats"
+      }
+    }
+  },
   "menu-item#decoration": {
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
-        "tagTitle": "Decoration",
-        "text": "Decoration"
+	"href": "#",
+	"tagTitle": "Decoration",
+	"text": "Decoration"
       }
     }
   },
@@ -36,9 +45,9 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
-        "tagTitle": "Shoes",
-        "text": "Shoes"
+	"href": "#",
+	"tagTitle": "Shoes",
+	"text": "Shoes"
       }
     }
   },
@@ -46,9 +55,9 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
-        "tagTitle": "Bags",
-        "text": "Hats"
+	"href": "#",
+	"tagTitle": "Bags",
+	"text": "Hats"
       }
     }
   },
@@ -56,9 +65,9 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+	"href": "#",
+	"tagTitle": "Clothing",
+	"text": "Clothing"
       }
     }
   },
@@ -66,9 +75,9 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+	"href": "#",
+	"tagTitle": "Accessories",
+	"text": "Accessories"
       }
     }
   }

@@ -10,42 +10,5 @@
       "header-row#logo-bar",
       "header-row#menu"
     ]
-  },
-  "header-row#promo-bar": {
-    "children": [
-      "notification.bar"
-    ]
-  },
-  "notification.bar": {
-    "props": {
-      "content": "FOR 25% OFF SALE USE CODE: HELLOHARDSPORT"
-    }
-  },
-  "header-row#logo-bar": {
-     "props": {
-       "blockClass": "logo-bar",
-       "inverted": true
-     },
-    "children": [
-      "logo",
-      "header-spacer",
-      "search-bar",
-      "login",
-      "minicart"
-    ]
-  },
-  "logo": {
-    "props": {
-      "url": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/HARDSPORT___9be5ada7fe2d7eeb7126a85d71da1cb1.png"
-    }
-  },
-  "header-row#menu": {
-    "props": {
-      "blockClass": "menu",
-      "inverted": true
-    },
-    "children": [
-      "vtex.menu@2.x:menu#header"
-    ]
   }
 }

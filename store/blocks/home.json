@@ -7,37 +7,5 @@
       "rich-text#categories-highlight",
       "flex-layout.row#categories"
     ]
-  },
-  "flex-layout.row#main-banner": {
-    "props": {
-      "fullWidth": true
-    },
-    "children": [
-      "info-card#home"
-    ]
-  },
-  "info-card#home": {
-    "props": {
-      "blockClass": "main-banner",
-      "isFullModeStyle": true,
-      "textPosition": "left",
-      "imageUrl": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/main-banner___33845cd3d49b059a9a74da5220686a42.png",
-      "mobileImageUrl": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/main-banner___33845cd3d49b059a9a74da5220686a42.png",
-      "headline": "The best shoes for running.",
-      "subhead": "",
-      "callToActionMode": "none",
-      "imageActionUrl": "#",
-      "textAlignment": "left"
-    }
-  },
-  "rich-text#categories-highlight": {
-    "props": {
-      "blockClass": "slim-title",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Top Categories",
-      "textColor": "c-on-base",
-      "font": "t-heading-2"
-    }
   }
 }
