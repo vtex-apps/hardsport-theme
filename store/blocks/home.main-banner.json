@@ -1,6 +1,7 @@
 {
   "flex-layout.row#main-banner": {
     "props": {
+      "blockClass": "infocard",
       "fullWidth": true
     },
     "children": [

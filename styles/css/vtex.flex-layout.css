@@ -2,7 +2,7 @@
   margin: 3em 0;
 }
 
-.flexCol--infocard {
+.flexCol--infocard, .flexRow--infocard {
   position: relative;
 }
 
