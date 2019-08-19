@@ -5,7 +5,8 @@
       "flex-layout.row#brand-bar",
       "flex-layout.row#display",
       "rich-text#categories-highlight",
-      "flex-layout.row#categories"
+      "flex-layout.row#categories",
+      "flex-layout.row#bottom-banner"
     ]
   }
 }

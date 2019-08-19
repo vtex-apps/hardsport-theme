@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#bottom-banner": {
+    "props": {
+      "blockClass": "infocard",
+      "fullWidth": true
+    },
+    "children": [
+      "info-card#bottom-banner"
+    ]
+  },
+  "info-card#bottom-banner": {
+    "props": {
+      "blockClass": "full-banner",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/image___777069fe2dc7c48d11705200b0215040.png",
+      "mobileImageUrl": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/image___777069fe2dc7c48d11705200b0215040.png",
+      "headline": "Every sport. Every season.",
+      "subhead": "",
+      "callToActionMode": "none",
+      "imageActionUrl": "#",
+      "textAlignment": "left"
+    }
+  }
+}

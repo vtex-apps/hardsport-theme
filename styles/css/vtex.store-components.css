@@ -1,18 +1,18 @@
-.infoCardContainer--main-banner {
+.infoCardContainer--full-banner {
   height: 370px;
   background-position: bottom;
   margin: 0 auto;
   max-width: 1920px;
 }
 
-.infoCardContainer--main-banner {
+.infoCardContainer--full-banner {
   height: 370px;
   background-position: bottom;
   margin: 0 auto;
   max-width: 1920px;
 }
 
-.infoCardContainer--main-banner .infoCardHeadline {
+.infoCardContainer--full-banner .infoCardHeadline {
   color: #FFF;
   font-size: 70px;
   line-height: 70px;
@@ -46,10 +46,10 @@
 
 .infoCardContainer--display .infoCardCallActionContainer,
 .infoCardContainer--categories .infoCardCallActionContainer,
-.infoCardContainer--main-banner .infoCardCallActionContainer,
+.infoCardContainer--full-banner .infoCardCallActionContainer,
 .infoCardContainer--display .infoCardHeadline,
 .infoCardContainer--categories .infoCardHeadline,
-.infoCardContainer--main-banner .infoCardHeadline {
+.infoCardContainer--full-banner .infoCardHeadline {
   z-index: 1;
 }
 
@@ -59,10 +59,12 @@
 
 .infoCardContainer--display::after,
 .infoCardContainer--categories::after,
-.infoCardContainer--main-banner::after {
+.infoCardContainer--full-banner::after {
   content: "";
   width: 100%;
   height: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
   display: inline-block;
   position: absolute;
   z-index: 0;
@@ -78,7 +80,7 @@
 
 .infoCardContainer--display:hover::after,
 .infoCardContainer--categories:hover::after,
-.infoCardContainer--main-banner:hover::after {
+.infoCardContainer--full-banner:hover::after {
   opacity: .3;
 }
 
