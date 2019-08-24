@@ -5,3 +5,9 @@
 .headerRow--menu .headerRowContainer {
   justify-content: center;
 }
+
+.headerRow--promo-bar :global(.vtex-store-components-3-x-container) {
+  margin: 0;
+  padding: 0;
+  max-width: inherit;
+}

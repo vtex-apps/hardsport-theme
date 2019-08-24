@@ -1,5 +1,8 @@
 {
   "header-row#promo-bar": {
+    "props": {
+      "blockClass": "promo-bar"
+    },
     "children": [
       "notification.bar"
     ]
