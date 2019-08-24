@@ -1,7 +1,7 @@
 {
   "vendor": "pilateslovers",
   "name": "hardsport-theme",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1-beta.1",
   "builders": {
     "styles": "1.x",
     "store": "0.x"
