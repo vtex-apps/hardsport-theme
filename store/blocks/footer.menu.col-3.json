@@ -1,0 +1,58 @@
+{
+  "footer-row#menu-col-3": {
+    "props": {
+      "inverted": true,
+      "blockClass": "vertical-menu"
+    },
+    "children": [
+      "rich-text#footer-get-connected",
+      "menu#footer-get-connected"
+    ]
+  },
+  "rich-text#footer-get-connected": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Get Connected",
+      "textColor": "c-action-primary",
+      "font": "t-heading-5"
+    }
+  },
+  "menu#footer-get-connected": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#facebook",
+      "menu-item#twitter",
+      "menu-item#instagram"
+    ]
+  },
+  "menu-item#facebook": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+	"href": "#",
+	"text": "Facebook"
+      }
+    }
+  },
+  "menu-item#twitter": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+	"href": "#",
+	"text": "Twitter"
+      }
+    }
+  },
+  "menu-item#instagram": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+	"href": "#",
+	"text": "Instagram"
+      }
+    }
+  }
+}

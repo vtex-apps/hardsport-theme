@@ -1,0 +1,88 @@
+{
+  "footer-row#menu-col-2": {
+    "props": {
+      "inverted": true,
+      "blockClass": "vertical-menu"
+    },
+    "children": [
+      "rich-text#footer-about-us",
+      "menu#footer-about-us"
+    ]
+  },
+  "rich-text#footer-about-us": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "About Us",
+      "textColor": "c-action-primary",
+      "font": "t-heading-5"
+    }
+  },
+  "menu#footer-about-us": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#careers",
+      "menu-item#history",
+      "menu-item#store-services",
+      "menu-item#terms",
+      "menu-item#payment-options"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+	"href": "#",
+	"text": "About Us"
+      }
+    }
+  },
+  "menu-item#careers": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+	"href": "#",
+	"text": "Careers"
+      }
+    }
+  },
+  "menu-item#history": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+	"href": "#",
+	"text": "History"
+      }
+    }
+  },
+  "menu-item#store-services": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+	"href": "#",
+	"text": "Store Services"
+      }
+    }
+  },
+  "menu-item#terms": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+	"href": "#",
+	"text": "Terms & Conditions"
+      }
+    }
+  },
+  "menu-item#payment-options": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+	"href": "#",
+	"text": "Payment Options"
+      }
+    }
+  }
+}

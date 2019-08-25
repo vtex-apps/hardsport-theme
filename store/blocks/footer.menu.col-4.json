@@ -1,0 +1,29 @@
+{
+  "footer-row#menu-col-4": {
+    "props": {
+      "inverted": true,
+      "blockClass": "vertical-menu"
+    },
+    "children": [
+      "rich-text#footer-weekly-deals",
+      "newsletter#footer"
+    ]
+  },
+  "rich-text#footer-weekly-deals": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Weekly Deals",
+      "textColor": "c-action-primary",
+      "font": "t-heading-5"
+    }
+  },
+  "newsletter#footer": {
+    "props": {
+      "blockClass": "footer",
+      "label": "Want exclusive offers and first access to products? Sign up for email alerts.",
+      "placeholder": "Your email address",
+      "submit": "OK"
+    }
+  }
+}

@@ -10,3 +10,7 @@
 .row--menu {
   padding: 3em 0 4em;
 }
+
+.row--menu .rowContainer {
+  align-items: baseline;
+}

@@ -6,9 +6,9 @@
     },
     "children": [
       "footer-row#menu-col-1",
-      "footer-row#menu-col-1",
-      "footer-row#menu-col-1",
-      "footer-row#menu-col-1"
+      "footer-row#menu-col-2",
+      "footer-row#menu-col-3",
+      "footer-row#menu-col-4"
     ]
   }
 }

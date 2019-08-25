@@ -109,3 +109,16 @@
 .notificationBarContainer .notificationContent {
   color: #222435;
 }
+
+.newsletter .container {
+  padding: 0;
+}
+
+.newsletter .label {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.newsletter .form {
+  text-align: left;
+}
