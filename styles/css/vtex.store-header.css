@@ -2,6 +2,12 @@
   min-height: 120px;
 }
 
+.headerRow--logo-bar :global(.vtex-button):hover,
+.headerRow--logo-bar :global(.vtex-button):focus,
+.headerRow--logo-bar :global(.vtex-button):active {
+  background: #273b58;
+}
+
 .headerRow--menu .headerRowContainer {
   justify-content: center;
 }
