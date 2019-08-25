@@ -8,8 +8,6 @@
   background: #273b58;
 }
 
-.headerRow--promo-bar :global(.vtex-store-components-3-x-container) {
-  margin: 0;
-  padding: 0;
-  max-width: inherit;
+.headerRowBackground--promo-bar {
+  background-color: #FFF;
 }
