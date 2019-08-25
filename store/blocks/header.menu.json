@@ -1,17 +1,15 @@
 {
   "header-row#menu": {
     "props": {
-      "blockClass": "menu",
       "inverted": true
     },
     "children": [
-      "vtex.menu@2.x:menu#header"
+      "header-spacer",
+      "vtex.menu@2.x:menu#header",
+      "header-spacer"
     ]
   },
   "vtex.menu@2.x:menu#header": {
-    "props": {
-      "blockClass": "header"
-    },
     "children": [
       "menu-item#hats",
       "menu-item#decoration",
@@ -26,8 +24,7 @@
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"tagTitle": "Hats",
-	"text": "Hats"
+	"text": "HATS"
       }
     }
   },
@@ -36,8 +33,7 @@
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"tagTitle": "Decoration",
-	"text": "Decoration"
+	"text": "DECORATION"
       }
     }
   },
@@ -46,8 +42,7 @@
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"tagTitle": "Shoes",
-	"text": "Shoes"
+	"text": "SHOES"
       }
     }
   },
@@ -56,8 +51,7 @@
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"tagTitle": "Bags",
-	"text": "Hats"
+	"text": "HATS"
       }
     }
   },
@@ -66,8 +60,7 @@
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"tagTitle": "Clothing",
-	"text": "Clothing"
+	"text": "CLOTHING"
       }
     }
   },
@@ -76,8 +69,7 @@
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"tagTitle": "Accessories",
-	"text": "Accessories"
+	"text": "ACCESSORIES"
       }
     }
   }

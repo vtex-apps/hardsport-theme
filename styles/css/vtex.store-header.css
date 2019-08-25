@@ -8,10 +8,6 @@
   background: #273b58;
 }
 
-.headerRow--menu .headerRowContainer {
-  justify-content: center;
-}
-
 .headerRow--promo-bar :global(.vtex-store-components-3-x-container) {
   margin: 0;
   padding: 0;
