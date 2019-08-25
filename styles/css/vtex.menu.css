@@ -1,4 +1,4 @@
 .menuContainer--header .styledLink {
-  color: #FFFFFF;
+  color: inherit;
   text-transform: uppercase;
 }
