@@ -1,0 +1,8 @@
+.row--vertical-menu .rowContainer {
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.row--vertical-menu :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin: 0;
+}

@@ -1,0 +1,34 @@
+{
+  "footer-row#menu-col-1": {
+    "props": {
+      "inverted": true,
+      "blockClass": "vertical-menu"
+    },
+    "children": [
+      "rich-text#footer-services",
+      "menu#footer-services"
+    ]
+  },
+  "rich-text#footer-services": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Customer Service",
+      "textColor": "c-action-primary",
+      "font": "t-heading-5"
+    }
+  },
+  "menu#footer-services": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#hats",
+      "menu-item#decoration",
+      "menu-item#shoes",
+      "menu-item#bags",
+      "menu-item#clothing",
+      "menu-item#accessories"
+    ]
+  }
+}

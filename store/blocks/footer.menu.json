@@ -1,0 +1,13 @@
+{
+  "footer-row#menu": {
+    "props": {
+      "inverted": true
+    },
+    "children": [
+      "footer-row#menu-col-1",
+      "footer-row#menu-col-1",
+      "footer-row#menu-col-1",
+      "footer-row#menu-col-1"
+    ]
+  }
+}
