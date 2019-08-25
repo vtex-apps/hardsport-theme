@@ -1,0 +1,22 @@
+{
+  "footer-row#copyright": {
+    "props": {
+      "inverted": true,
+      "fullWidth": false
+    },
+    "children": [
+      "rich-text#footer-copyright",
+      "footer-spacer",
+      "powered-by"
+    ]
+  },
+  "rich-text#footer-copyright": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "©2019  HardSport's Sporting Goods. All Rights Reserved",
+      "textColor": "c-on-base--inverted",
+      "font": "t-mini"
+    }
+  }
+}

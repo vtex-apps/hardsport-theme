@@ -1,0 +1,12 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "footer-row#copyright"
+    ]
+  }
+}
