@@ -10,7 +10,7 @@
   },
   "info-card#bottom-banner": {
     "props": {
-      "blockClass": "full-banner",
+      "blockClass": "full-banner-centered",
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "https://pilateslovers.vteximg.com.br/assets/vtex.file-manager-graphql/images/image___777069fe2dc7c48d11705200b0215040.png",

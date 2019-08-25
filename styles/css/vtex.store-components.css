@@ -1,4 +1,5 @@
-.infoCardContainer--full-banner {
+.infoCardContainer--full-banner,
+.infoCardContainer--full-banner-centered {
   height: 370px;
   background-position: bottom;
   margin: 0 auto;
@@ -6,7 +7,8 @@
   border: none;
 }
 
-.infoCardContainer--full-banner .infoCardHeadline {
+.infoCardContainer--full-banner .infoCardHeadline,
+.infoCardContainer--full-banner-centered .infoCardHeadline {
   color: #FFF;
   font-size: 70px;
   line-height: 70px;
@@ -27,6 +29,15 @@
   width: 70%;
 }
 
+.infoCardContainer--full-banner-centered .infoCardTextContainer {
+  width: 100%;
+}
+
+.infoCardContainer--full-banner-centered .infoCardHeadline {
+  width: 100%;
+  text-align: center;
+}
+
 .infoCardContainer--categories {
   min-height: 180px;
 }
@@ -41,9 +52,11 @@
 .infoCardContainer--display .infoCardCallActionContainer,
 .infoCardContainer--categories .infoCardCallActionContainer,
 .infoCardContainer--full-banner .infoCardCallActionContainer,
+.infoCardContainer--full-banner-centered .infoCardCallActionContainer,
 .infoCardContainer--display .infoCardHeadline,
 .infoCardContainer--categories .infoCardHeadline,
-.infoCardContainer--full-banner .infoCardHeadline {
+.infoCardContainer--full-banner .infoCardHeadline,
+.infoCardContainer--full-banner-centered .infoCardHeadline {
   z-index: 1;
 }
 
@@ -53,7 +66,8 @@
 
 .infoCardContainer--display::after,
 .infoCardContainer--categories::after,
-.infoCardContainer--full-banner::after {
+.infoCardContainer--full-banner::after,
+.infoCardContainer--full-banner-centered::after {
   content: "";
   width: 100%;
   height: 100%;
@@ -74,7 +88,8 @@
 
 .infoCardContainer--display:hover::after,
 .infoCardContainer--categories:hover::after,
-.infoCardContainer--full-banner:hover::after {
+.infoCardContainer--full-banner:hover::after,
+.infoCardContainer--full-banner-centered:hover::after {
   opacity: .3;
 }
 
