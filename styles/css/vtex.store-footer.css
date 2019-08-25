@@ -6,3 +6,7 @@
 .row--vertical-menu :global(.vtex-menu-2-x-styledLinkContainer) {
   margin: 0;
 }
+
+.row--menu {
+  padding: 3em 0 4em;
+}

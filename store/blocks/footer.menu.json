@@ -1,6 +1,7 @@
 {
   "footer-row#menu": {
     "props": {
+      "blockClass": "menu",
       "inverted": true
     },
     "children": [

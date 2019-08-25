@@ -23,12 +23,46 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#hats",
-      "menu-item#decoration",
-      "menu-item#shoes",
-      "menu-item#bags",
-      "menu-item#clothing",
-      "menu-item#accessories"
+      "menu-item#order-status",
+      "menu-item#returns",
+      "menu-item#shipping",
+      "menu-item#contact-us"
     ]
+  },
+  "menu-item#order-status": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+	"href": "#",
+	"text": "Order Status"
+      }
+    }
+  },
+  "menu-item#returns": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+	"href": "#",
+	"text": "Returns / Exchange"
+      }
+    }
+  },
+  "menu-item#shipping": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+	"href": "#",
+	"text": "Shipping"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+	"href": "#",
+	"text": "Contact Us"
+      }
+    }
   }
 }
