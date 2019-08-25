@@ -3,13 +3,7 @@
   background-position: bottom;
   margin: 0 auto;
   max-width: 1920px;
-}
-
-.infoCardContainer--full-banner {
-  height: 370px;
-  background-position: bottom;
-  margin: 0 auto;
-  max-width: 1920px;
+  border: none;
 }
 
 .infoCardContainer--full-banner .infoCardHeadline {
