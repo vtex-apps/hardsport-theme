@@ -20,7 +20,6 @@
   },
   "newsletter#footer": {
     "props": {
-      "blockClass": "footer",
       "label": "Want exclusive offers and first access to products? Sign up for email alerts.",
       "placeholder": "Your email address",
       "submit": "OK"
