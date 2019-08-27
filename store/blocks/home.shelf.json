@@ -4,6 +4,7 @@
       "product-summary"
     ],
     "props": {
+      "blockClass": "home",
       "orderBy": "OrderByTopSaleDESC",
       "productList": {
         "maxItems": 10,
