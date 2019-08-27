@@ -74,5 +74,15 @@
       "imageActionUrl": "#",
       "textAlignment": "center"
     }
+  },
+  "rich-text#categories-title": {
+    "props": {
+      "blockClass": "slim-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Top Categories",
+      "textColor": "c-on-base",
+      "font": "t-heading-2"
+    }
   }
 }
