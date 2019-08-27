@@ -4,6 +4,7 @@
       "flex-layout.row#main-banner",
       "flex-layout.row#brand-bar",
       "flex-layout.row#display",
+      "shelf#home",
       "rich-text#categories-title",
       "flex-layout.row#categories",
       "flex-layout.row#bottom-banner"
