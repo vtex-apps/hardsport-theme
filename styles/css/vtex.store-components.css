@@ -144,3 +144,7 @@
 .newsletter .form {
   text-align: left;
 }
+
+.discountInsideContainer {
+  z-index: 1;
+}
