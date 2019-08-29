@@ -119,8 +119,21 @@
   color: #222435;
 }
 
+.newsletter {
+  background: inherit;
+}
+
+.newsletter .confirmationTitle,
+.newsletter .confirmationText {
+  text-align: inherit;
+}
+
 .newsletter .container {
   padding: 0;
+}
+
+.inputGroup {
+  border: none;
 }
 
 .newsletter .label {
