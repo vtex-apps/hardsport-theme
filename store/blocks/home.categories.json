@@ -42,7 +42,7 @@
       "isFullModeStyle": true,
       "textPosition": "center",
       "imageUrl": "https://partnerchallenge29.vteximg.com.br/arquivos/bike-infocard-1891b3d.png",
-      "headline": "Bikes",
+      "headline": "Bicicletas",
       "subhead": "",
       "callToActionMode": "none",
       "imageActionUrl": "#",
@@ -68,7 +68,7 @@
       "isFullModeStyle": true,
       "textPosition": "center",
       "imageUrl": "https://partnerchallenge29.vteximg.com.br/arquivos/stepping-up-infocard-1823918.png",
-      "headline": "Footwear",
+      "headline": "Calzado",
       "subhead": "",
       "callToActionMode": "none",
       "imageActionUrl": "#",
@@ -80,7 +80,7 @@
       "blockClass": "slim-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Top Categories",
+      "text": "Top Categorías",
       "textColor": "c-on-base",
       "font": "t-heading-2"
     }

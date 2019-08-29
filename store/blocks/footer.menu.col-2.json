@@ -13,7 +13,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "About Us",
+      "text": "Acerca de nosotros",
       "textColor": "c-action-primary",
       "font": "t-heading-5"
     }
@@ -23,65 +23,65 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#careers",
-      "menu-item#history",
-      "menu-item#store-services",
-      "menu-item#terms",
-      "menu-item#payment-options"
+      "menu-item#footer-col-2-menu1",
+      "menu-item#footer-col-2-menu2",
+      "menu-item#footer-col-2-menu3",
+      "menu-item#footer-col-2-menu4",
+      "menu-item#footer-col-2-menu5",
+      "menu-item#footer-col-2-menu6"
     ]
   },
-  "menu-item#about-us": {
+  "menu-item#footer-col-2-menu1": {
     "props": {
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"text": "About Us"
+	"text": "Acerca de nosotros"
       }
     }
   },
-  "menu-item#careers": {
+  "menu-item#footer-col-2-menu2": {
     "props": {
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"text": "Careers"
+	"text": "Oportunidades de trabajo"
       }
     }
   },
-  "menu-item#history": {
+  "menu-item#footer-col-2-menu3": {
     "props": {
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"text": "History"
+	"text": "Historia"
       }
     }
   },
-  "menu-item#store-services": {
+  "menu-item#footer-col-2-menu4": {
     "props": {
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"text": "Store Services"
+	"text": "Servicios de tienda"
       }
     }
   },
-  "menu-item#terms": {
+  "menu-item#footer-col-2-menu5": {
     "props": {
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"text": "Terms & Conditions"
+	"text": "Términos y condiciones"
       }
     }
   },
-  "menu-item#payment-options": {
+  "menu-item#footer-col-2-menu6": {
     "props": {
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"text": "Payment Options"
+	"text": "Opciones de pago"
       }
     }
   }

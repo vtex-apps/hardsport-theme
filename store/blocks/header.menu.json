@@ -11,65 +11,65 @@
   },
   "vtex.menu@2.x:menu#header": {
     "children": [
-      "menu-item#hats",
-      "menu-item#decoration",
-      "menu-item#shoes",
-      "menu-item#bags",
-      "menu-item#clothing",
-      "menu-item#accessories"
+      "menu-item#header-menu1",
+      "menu-item#header-menu3",
+      "menu-item#header-menu4",
+      "menu-item#header-menu5",
+      "menu-item#header-menu5",
+      "menu-item#header-menu6"
     ]
   },
-  "menu-item#hats": {
+  "menu-item#header-menu1": {
     "props": {
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"text": "HATS"
+	"text": "HOMBRE"
       }
     }
   },
-  "menu-item#decoration": {
+  "menu-item#header-menu2": {
     "props": {
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"text": "DECORATION"
+	"text": "MUJER"
       }
     }
   },
-  "menu-item#shoes": {
+  "menu-item#header-menu3": {
     "props": {
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"text": "SHOES"
+	"text": "NIÑOS"
       }
     }
   },
-  "menu-item#bags": {
+  "menu-item#header-menu4": {
     "props": {
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"text": "HATS"
+	"text": "EQUIPAMENTO"
       }
     }
   },
-  "menu-item#clothing": {
+  "menu-item#header-menu5": {
     "props": {
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"text": "CLOTHING"
+	"text": "ACCESORIOS"
       }
     }
   },
-  "menu-item#accessories": {
+  "menu-item#header-menu6": {
     "props": {
       "type": "custom",
       "itemProps": {
 	"href": "#",
-	"text": "ACCESSORIES"
+	"text": "SALE"
       }
     }
   }

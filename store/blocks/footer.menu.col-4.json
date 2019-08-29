@@ -13,15 +13,15 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "Weekly Deals",
+      "text": "Ofertas Semanales",
       "textColor": "c-action-primary",
       "font": "t-heading-5"
     }
   },
   "newsletter#footer": {
     "props": {
-      "label": "Want exclusive offers and first access to products? Sign up for email alerts.",
-      "placeholder": "Your email address",
+      "label": "¿Quieres ofertas exclusivas y acceso a productos? Regístrate para recibir alertas.",
+      "placeholder": "Tu dirección de correo eletrónico",
       "submit": "OK"
     }
   }

@@ -10,27 +10,21 @@
         "maxItems": 10,
         "itemsPerPage": 4,
         "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": "Best Sellers",
-        "hideUnavailableItems": false,
+        "arrows": false,
+        "titleText": "Los Más Vendidos",
         "summary": {
-          "isOneClickBuy": false,
           "showBadge": true,
-          "badgeText": "OFF",
-          "buyButtonText": "Buy Now",
-          "displayBuyButton": "displayButtonAlways",
-          "showCollections": false,
-          "showListPrice": true,
-          "showLabels": false,
-          "showInstallments": true,
-          "showSavings": true,
-          "name": {
-            "showBrandName": false,
-            "showSku": false,
-            "showProductReference": false
-          }
+          "badgeText": "",
+          "buyButtonText": "Comprar",
+          "displayBuyButton": "displayButtonAlways"
         }
       }
+    }
+  },
+  "product-summary": {
+    "props": {
+      "showBadge": true,
+      "badgeText": ""
     }
   }
 }
