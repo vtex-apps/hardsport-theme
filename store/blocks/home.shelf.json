@@ -1,29 +1,36 @@
 {
   "shelf#home": {
-    "blocks": [
-      "product-summary"
-    ],
+    "blocks": ["product-summary.shelf"],
     "props": {
-      "blockClass": "home",
       "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
       "productList": {
         "maxItems": 10,
         "itemsPerPage": 4,
+        "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
-        "arrows": false,
-        "titleText": "Los Más Vendidos",
-        "summary": {
-          "showBadge": true,
-          "badgeText": "",
-          "buyButtonText": "Comprar",
-          "displayBuyButton": "displayButtonAlways"
-        }
+        "arrows": true,
+        "titleText": "Los Más Vendidos"
       }
     }
   },
-  "product-summary": {
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "product-summary-buy-button": {
     "props": {
-      "showBadge": true,
+      "buyButtonText": "Comprar"
+    }
+  },
+  "product-summary-image": {
+    "props": {
+      "showBadge": false,
       "badgeText": ""
     }
   }
