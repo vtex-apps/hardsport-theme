@@ -6,10 +6,6 @@
   justify-content: center;
 }
 
-.flexCol--brand > div {
-  height: initial!important;
-}
-
 .flexRow--brand-bar {
   background: #FFF;
   text-align: center;

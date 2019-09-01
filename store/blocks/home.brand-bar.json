@@ -16,7 +16,8 @@
   },
   "flex-layout.col#brand1": {
     "props": {
-      "blockClass": "brand"
+      "blockClass": "brand",
+      "preventVerticalStretch": true
     },
     "children": [
       "image#brand1"
@@ -24,7 +25,8 @@
   },
   "flex-layout.col#brand2": {
     "props": {
-      "blockClass": "brand"
+      "blockClass": "brand",
+      "preventVerticalStretch": true
     },
     "children": [
       "image#brand2"
@@ -32,7 +34,8 @@
   },
   "flex-layout.col#brand3": {
     "props": {
-      "blockClass": "brand"
+      "blockClass": "brand",
+      "preventVerticalStretch": true
     },
     "children": [
       "image#brand3"
@@ -40,7 +43,8 @@
   },
   "flex-layout.col#brand4": {
     "props": {
-      "blockClass": "brand"
+      "blockClass": "brand",
+      "preventVerticalStretch": true
     },
     "children": [
       "image#brand4"
@@ -48,7 +52,8 @@
   },
   "flex-layout.col#brand5": {
     "props": {
-      "blockClass": "brand"
+      "blockClass": "brand",
+      "preventVerticalStretch": true
     },
     "children": [
       "image#brand5"
@@ -56,7 +61,8 @@
   },
   "flex-layout.col#brand6": {
     "props": {
-      "blockClass": "brand"
+      "blockClass": "brand",
+      "preventVerticalStretch": true
     },
     "children": [
       "image#brand6"
