@@ -1,5 +1,6 @@
 {
   "footer-row#menu-col-1": {
+    "title": "Servicio al cliente",
     "props": {
       "inverted": true,
       "blockClass": "vertical-menu"

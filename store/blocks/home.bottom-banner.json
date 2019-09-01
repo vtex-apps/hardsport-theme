@@ -9,6 +9,7 @@
     ]
   },
   "info-card#bottom-banner": {
+    "title": "Bottom banner",
     "props": {
       "blockClass": "full-banner-centered",
       "isFullModeStyle": true,

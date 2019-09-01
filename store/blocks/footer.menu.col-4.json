@@ -1,5 +1,6 @@
 {
   "footer-row#menu-col-4": {
+    "title": "Ofertas Semanales",
     "props": {
       "inverted": true,
       "blockClass": "vertical-menu"

@@ -1,5 +1,6 @@
 {
   "header.full": {
+    "title": "Header",
     "blocks": [
       "header-layout.desktop"
     ]

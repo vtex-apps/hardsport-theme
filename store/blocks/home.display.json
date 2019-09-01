@@ -1,7 +1,9 @@
 {
   "flex-layout.row#display": {
+    "title": "Destados",
     "props": {
-      "blockClass": "display",
+      "marginTop": 8,
+      "marginBottom": 6,
       "colGap": 8,
       "rowGap": 8,
       "fullWidth": false
@@ -37,6 +39,7 @@
     ]
   },
   "info-card#display1": {
+    "title": "Destado 1",
     "props": {
       "blockClass": "display",
       "isFullModeStyle": true,
@@ -51,6 +54,7 @@
     }
   },
   "info-card#display2": {
+    "title": "Destado 2",
     "props": {
       "blockClass": "display",
       "isFullModeStyle": true,
@@ -65,6 +69,7 @@
     }
   },
   "info-card#display3": {
+    "title": "Destado 3",
     "props": {
       "blockClass": "display",
       "isFullModeStyle": true,

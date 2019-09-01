@@ -12,9 +12,9 @@
   "vtex.menu@2.x:menu#header": {
     "children": [
       "menu-item#header-menu1",
+      "menu-item#header-menu2",
       "menu-item#header-menu3",
       "menu-item#header-menu4",
-      "menu-item#header-menu5",
       "menu-item#header-menu5",
       "menu-item#header-menu6"
     ]

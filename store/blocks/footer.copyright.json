@@ -1,5 +1,6 @@
 {
   "footer-row#copyright": {
+    "title": "Derechos",
     "props": {
       "inverted": true,
       "fullWidth": false

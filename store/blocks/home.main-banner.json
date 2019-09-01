@@ -1,5 +1,6 @@
 {
   "flex-layout.row#main-banner": {
+    "title": "Main banner",
     "props": {
       "blockClass": "infocard",
       "fullWidth": true

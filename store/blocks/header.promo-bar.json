@@ -8,6 +8,7 @@
     ]
   },
   "notification.bar": {
+    "title": "Barra de Promoción",
     "props": {
       "content": "25% DE DESCUENTO USANDO EL CÓDIGO: FIESTASPATRIAS"
     }

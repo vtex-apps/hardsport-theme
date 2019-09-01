@@ -1,5 +1,6 @@
 {
   "footer-row#menu-col-2": {
+    "title": "Acerca de nosotros",
     "props": {
       "inverted": true,
       "blockClass": "vertical-menu"
