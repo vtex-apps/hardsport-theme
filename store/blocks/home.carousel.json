@@ -1,0 +1,20 @@
+{
+  "carousel#home": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://partnerchallenge29.vteximg.com.br/arquivos/preparate-invierno-81671.png",
+          "page": "/"
+        },
+        {
+          "image": "https://partnerchallenge29.vteximg.com.br/arquivos/best-shoes-81812.png",
+          "page": "/"
+        }
+      ],
+      "height": 370,
+      "showArrows": true,
+      "showDots": false
+    }
+  }
+}

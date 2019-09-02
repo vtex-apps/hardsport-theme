@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "flex-layout.row#main-banner",
+      "carousel#home",
       "flex-layout.row#brand-bar",
       "flex-layout.row#display",
       "shelf#home",
