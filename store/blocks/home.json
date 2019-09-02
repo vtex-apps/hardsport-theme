@@ -1,8 +1,8 @@
 {
   "store.home": {
     "blocks": [
-      "carousel#home",
       "flex-layout.row#brand-bar",
+      "carousel#home",
       "flex-layout.row#display",
       "shelf#home",
       "rich-text#categories-title",
