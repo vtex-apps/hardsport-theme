@@ -6,6 +6,7 @@
   },
 
   "flex-layout.row#custom-landing-page": {
+    "title": "Contenido",
     "props": {
       "marginLeft": 5,
       "marginRight": 5
@@ -37,6 +38,7 @@
   },
 
   "rich-text#about-title": {
+    "title": "Título",
     "props": {
       "text":
       "# Título"
@@ -44,12 +46,14 @@
   },
 
   "rich-text#about-content": {
+    "title": "Texto",
     "props": {
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium odio vitae vulputate efficitur. \n\n Morbi porta, ligula a sodales sagittis, ex metus molestie nisl, eu efficitur dolor ligula a sapien. Nullam et luctus arcu, nec fringilla tellus. Cras pellentesque leo vitae leo condimentum, in lacinia velit pharetra. Donec vitae velit in dolor ornare hendrerit sit amet at ex. \n\n Integer pulvinar sodales justo, eu malesuada diam lacinia ac. Curabitur aliquam, lorem et semper imperdiet, ipsum est dapibus massa, sed consequat dui diam ut arcu. Vestibulum eget massa ligula. Cras ultricies quis nibh vel molestie. Morbi eleifend magna eu diam eleifend commodo. Aenean lobortis urna vel sodales placerat. Proin sed faucibus magna. Quisque in felis eget lacus mattis tempus consequat quis ipsum. Morbi semper risus in tortor aliquet sagittis."
     }
   },
 
   "image#custom-landing-page": {
+    "title": "Imagen",
     "props": {
       "src": "https://partnerchallenge29.vteximg.com.br/arquivos/chile-f81bd.png",
       "maxHeight": "600px"
