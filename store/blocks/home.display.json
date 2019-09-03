@@ -1,6 +1,6 @@
 {
   "flex-layout.row#display": {
-    "title": "Destados",
+    "title": "Destacados",
     "props": {
       "marginTop": 8,
       "marginBottom": 6,
