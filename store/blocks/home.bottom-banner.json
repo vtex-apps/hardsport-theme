@@ -1,5 +1,6 @@
 {
   "flex-layout.row#bottom-banner": {
+    "title": "Bottom",
     "props": {
       "blockClass": "infocard",
       "fullWidth": true
@@ -9,7 +10,7 @@
     ]
   },
   "info-card#bottom-banner": {
-    "title": "Bottom banner",
+    "title": "Banner",
     "props": {
       "blockClass": "full-banner-centered",
       "isFullModeStyle": true,
