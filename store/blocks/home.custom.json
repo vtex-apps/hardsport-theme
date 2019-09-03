@@ -1,0 +1,58 @@
+{
+  "store.custom#custom-landing-page": {
+    "blocks": [
+      "flex-layout.row#custom-landing-page"
+    ]
+  },
+
+  "flex-layout.row#custom-landing-page": {
+    "props": {
+      "marginLeft": 5,
+      "marginRight": 5
+    },
+    "children": [
+      "flex-layout.col#image-custom-landing-page",
+      "flex-layout.col#text-custom-landing-page"
+    ]
+  },
+
+  "flex-layout.col#image-custom-landing-page": {
+    "children": [
+      "image#custom-landing-page"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#text-custom-landing-page": {
+    "children": [
+      "rich-text#about-title",
+      "rich-text#about-content"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "width": "70%"
+    }
+  },
+
+  "rich-text#about-title": {
+    "props": {
+      "text":
+      "# Título"
+										   }
+  },
+
+  "rich-text#about-content": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium odio vitae vulputate efficitur. Morbi porta, ligula a sodales sagittis, ex metus molestie nisl, eu efficitur dolor ligula a sapien. Nullam et luctus arcu, nec fringilla tellus. Cras pellentesque leo vitae leo condimentum, in lacinia velit pharetra. Donec vitae velit in dolor ornare hendrerit sit amet at ex. Integer pulvinar sodales justo, eu malesuada diam lacinia ac. Curabitur aliquam, lorem et semper imperdiet, ipsum est dapibus massa, sed consequat dui diam ut arcu. Vestibulum eget massa ligula. Cras ultricies quis nibh vel molestie. Morbi eleifend magna eu diam eleifend commodo. Aenean lobortis urna vel sodales placerat. Proin sed faucibus magna. Quisque in felis eget lacus mattis tempus consequat quis ipsum. Morbi semper risus in tortor aliquet sagittis."
+    }
+  },
+
+  "image#custom-landing-page": {
+    "props": {
+      "src": "https://partnerchallenge29.vteximg.com.br/arquivos/chile-f81bd.png",
+      "maxHeight": "600px"
+    }
+  }
+}
